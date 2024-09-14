@@ -1,0 +1,42 @@
+---
+title: "7 Proven Steps to Make an Untangable Mess of Your New Project. Part 1"
+date: 2024-09-14
+---
+
+
+Hello, fellow developers! Welcome to the first post in our enlightening series, **7 Proven Steps to Make an Untangable Mess of Your New Project** In this series, we’ll dive deep into the subtle art of turning a promising Android app into an unmaintainable nightmare. If your goal is to create a project that will confound even the most experienced colleagues, then you’ve come to the right place!
+
+Today, we start with **Step 1: The Perfect Anti-Pattern.**
+
+### Step 1: Pick All the Architectures, Mix Them Together
+
+You're starting a new Android project, and you're faced with the daunting decision of choosing an architecture. Should you go with the MVP? MVVM? Or MVI?/ Here’s the secret to chaos: **choose them all!**
+
+### Implementation Strategy
+
+To achieve this, you should:
+
+1. **Start with the Activity:**  
+   Create a `MainActivity` that handles UI updates, manages state, and also fetches data from the repository. After all, why should we let ViewModels have all the fun? Let’s just throw them all into `MainActivity` and call it “MVC-ish.”
+
+2. **Create a Fragment for Everything:**  
+   And I mean **everything**. Each button click should navigate to a new fragment. Additionally, each fragment should have its own flavor—one with MVP, another with MVVM, and a third with MVI. The more inconsistent, the better.
+
+3. **Introduce Business Logic in Views:**  
+   Put some crucial business logic inside your custom views. Perhaps your `CustomButton` needs to know about user authentication? Sure, let it out. Spread logic everywhere.
+
+4. **Avoid ViewModels and Repositories:**  
+   Instead, put network calls directly in Activities and Fragments. The more places you have to look for a network call, the more interesting debugging will be. If anyone suggests using a `ViewModel`, remind them that it’s "overhead" and "too boilerplate-y."
+
+5. **Make Generics Your Best Friend:**  
+   Whenever possible, use `BaseActivity<T>` or `BaseFragment<T>` with type parameters so complex that not even the JVM will understand them. For bonus points, ensure every subclass overrides half of the generic methods with entirely different logic.
+
+### The Expected Outcomes
+
+By the time you’ve implemented this step, your project will be a labyrinth of interwoven dependencies, UI elements doing the work of the model layer, and activities that could fill Pulitzer-winning novel. This will ensure that future developers—or even future you—will spend entire weeks just figuring out what’s going on than actually adding new features. (and it’s the perfect recipe for job security, though)
+
+### Next Steps
+
+Stay tuned for **Step 2: The Dependency Injection Overload** where we’ll discuss how to turn a simple DI setup into an intricate maze of modules, providers, and ambiguous dependencies. Remember, the more `@Inject` annotations, the better!
+
+Happy coding!
