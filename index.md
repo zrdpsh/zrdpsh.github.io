@@ -3,6 +3,7 @@
 Hi there! 👋 
 
 Code-crunching, bug-squashing, logic-minded wannabe Android tech guy.
+
 Focused is on building functional apps that do what they’re supposed to.
 
 ## Skills
