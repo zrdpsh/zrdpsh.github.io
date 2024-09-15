@@ -2,7 +2,7 @@
 
 Hi there! 👋 
 
-Code-crunching, bug-squashing, logic-minded wannabe Android tech guy.\
+Code-crunching, bug-squashing, logic-minded wannabe Android developer.
 Focused is on building functional apps that do what they’re supposed to.
 
 ## Skills
@@ -12,10 +12,6 @@ Focused is on building functional apps that do what they’re supposed to.
 - **Version Control**: Git, GitHub
 - **Databases**: SQLite, Firebase Realtime Database
 - **Currently Learning**: MVVM, Jetpack libraries, CI/CD, Unit Testing
-
-## Goals
-
-- Learn more. Build more. Publish something. 
 
 ## Contact
 
