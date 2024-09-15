@@ -1,5 +1,3 @@
-# About
-
 Hi there! 👋 
 
 Code-crunching, bug-squashing, logic-minded wannabe Android developer.
