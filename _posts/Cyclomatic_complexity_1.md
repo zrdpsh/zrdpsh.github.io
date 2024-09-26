@@ -1,5 +1,5 @@
 ---
-title: "Цикломатическая сложность"
+title: "Cyclomatic_complexity_1"
 date: 2024-09-14
 ---
 
